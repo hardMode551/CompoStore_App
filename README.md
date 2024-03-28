@@ -6,7 +6,7 @@
 - Front: React + typeScript
 - Styles: scss / module components
 
-Ссылка на демо: ...
+Ссылка на демо: https://compo-store-app.vercel.app/
 
 ## Инструкция по клонированию репозитория
 
