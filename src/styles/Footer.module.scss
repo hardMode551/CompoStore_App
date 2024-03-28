@@ -1,0 +1,116 @@
+footer {
+  margin: 32px 0 46px 0;
+
+  .container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+
+    margin: 48px 0px;
+    padding: 48px 0px;
+
+    border-top: 1px solid rgb(226, 228, 240);
+    border-bottom: 1px solid rgb(226, 228, 240);
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 48px;
+
+      letter-spacing: 0px;
+      text-align: left;
+
+      svg {
+        margin-right: 12px;
+      }
+
+      h3 {
+        font-family: "gothampro_black";
+        font-size: 16px;
+        line-height: 20px;
+      }
+
+      p {
+        color: rgb(119, 130, 158);
+        font-size: 12px;
+        line-height: 16px;
+      }
+    }
+
+    .links {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+
+      letter-spacing: 0%;
+      text-align: center;
+
+      a {
+        color: rgb(7, 20, 53);
+        font-family: "gothampro_bold";
+        font-size: 16px;
+        line-height: 20px;
+      }
+
+      button {
+        width: 188px;
+        height: 48px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 8px;
+        background: rgb(242, 246, 255);
+
+        color: rgb(21, 81, 229);
+        font-family: "gothampro_medium";
+        font-size: 14px;
+        line-height: 16px;
+      }
+    }
+  }
+
+  .table {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    padding: 48px 0 48px 0;
+
+    border-bottom: 1px solid rgb(226, 228, 240);
+
+    .column {
+      flex: 1;
+
+      margin-right: 20px;
+
+      letter-spacing: 0%;
+      text-align: left;
+
+      h1 {
+        font-family: "gothampro_bold";
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+      }
+
+      a{
+        color: rgb(5, 13, 35);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+      }
+    }
+
+    li {
+      margin-bottom: 16px;
+    }
+  }
+
+  .copyright {
+    display: flex;
+  }
+}

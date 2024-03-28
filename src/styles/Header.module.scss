@@ -1,0 +1,122 @@
+header {
+  font-family: "gothampro_medium";
+
+  display: flex;
+  flex-direction: column;
+
+  position: sticky;
+  top: 0;
+
+  background: rgb(255, 255, 255);
+
+  .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+    height: 80px;
+    padding: 16px 0 16px 0;
+
+    border-bottom: 1px solid rgb(226, 228, 240);
+
+
+    button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+  
+      width: 127px;
+      height: 48px;
+  
+      border-radius: 8px;
+  
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 16px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+
+    .menu {
+      background: rgb(21, 81, 229);
+      color: rgb(255, 255, 255);
+    }
+  
+    
+  
+    .inputContainer {
+      position: relative;
+  
+      input {
+        width: 704px;
+        height: 32px;
+  
+        margin: 0px 12px;
+        padding: 8px 12px 8px 16px;
+  
+        border: 1px solid rgb(225, 229, 235);
+        border-radius: 8px;
+  
+        color: #050d23;
+  
+        font-family: "gothampro_medium";
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: left;
+
+        &:focus{
+          outline: 2px solid rgb(21, 81, 229);
+        }
+      }
+  
+      svg {
+        position: absolute;
+        right: 26px;
+        top: 12px;
+      }
+  
+      .searchIcon {
+        right: 26px;
+      }
+
+      .hidden{
+        display: none;
+      }
+    }
+  
+    svg {
+      fill: red;
+    }
+  
+    .basket {
+      width: 148px;
+      height: 48px;
+  
+      margin: 0px 24px;
+  
+      background: rgb(242, 246, 255);
+      color: rgb(21, 81, 229);
+    }
+  
+    .user {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+  
+      width: 169px;
+      height: 32px;
+  
+      padding: 0px;
+      margin: 0px 24px;
+  
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 16px;
+      letter-spacing: 0%;
+    }
+  }
+}

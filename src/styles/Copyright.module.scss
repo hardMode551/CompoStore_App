@@ -1,0 +1,61 @@
+.root{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+
+    margin-top: 48px;
+    
+    .links{
+        display: flex;
+        justify-content: center;
+        gap: 28px;
+
+        a{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            color: rgb(130, 142, 173);
+            font-family: "gothampro_medium";
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 0%;
+            text-align: left;
+
+            &:hover{
+                color: #1551e5;
+
+                svg{
+                    rect{
+                        fill: #1551e5;
+                    }
+                }
+            }
+        }
+    }
+
+    .text{
+        color: rgb(130, 142, 173);
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0px;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+
+        p{
+            color: rgb(143, 155, 179);
+            font-family: "gothampro_bold";
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 16px;
+            letter-spacing: 0%;
+        }
+    }
+}

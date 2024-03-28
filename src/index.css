@@ -1,0 +1,41 @@
+@import url('./fonts.css');
+
+:root {
+  font-family: 'GothamPro', sans-serif;
+
+  color: rgb(7, 20, 53);
+  background: rgb(255, 255, 255);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: inherit;
+}
+
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+svg {
+  cursor: pointer;
+}
+
+ul{
+  list-style: none;
+
+  padding: 0;
+}
+
+.App{
+  padding: 0 10px 0 10px;
+}
